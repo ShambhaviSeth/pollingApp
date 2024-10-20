@@ -3,7 +3,8 @@ install:
   - pip install -r mysite/requirements.txt
 
 script:
-  - true 
+  - black --check .
+  - flake8 --max-line-length=88 .
 
 deploy:
   provider: elasticbeanstalk
