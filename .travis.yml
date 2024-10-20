@@ -3,3 +3,13 @@ install:
   - pip install -r mysite/requirements.txt
 script:
   - pytest
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: $ACCESS_KEY_ID
+  secret_access_key:
+    secure: $SECRET_ACCESS_KEY
+  region: us-west-2
+  app: django-tutorial
+  env: django-env
+  bucket_name: elasticbeanstalk-us-west-2-290512176394
