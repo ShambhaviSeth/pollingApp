@@ -13,3 +13,5 @@ deploy:
   app: django-tutorial
   env: django-env
   bucket_name: elasticbeanstalk-us-west-2-290512176394
+  on:
+    branch: main
