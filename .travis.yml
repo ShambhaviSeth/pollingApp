@@ -5,6 +5,7 @@ install:
 script:
   - black --check .
   - flake8 --max-line-length=88 .
+  - export DJANGO_SETTINGS_MODULE=mysite.settings
   - coverage run --source='mysite' mysite/manage.py test polls
  
 after_scripts:
