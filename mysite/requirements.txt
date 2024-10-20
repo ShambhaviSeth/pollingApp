@@ -3,3 +3,5 @@ pytz==2024.2
 sqlparse==0.4.4
 flake8
 black
+coveralls
+coverage
