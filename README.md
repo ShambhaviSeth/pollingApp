@@ -1,5 +1,5 @@
 # pollingApp
-
+This is a sample Django application.
 **Build Status**
 [![Build Status](https://app.travis-ci.com/ShambhaviSeth/pollingApp.svg?token=ybxeqBJxxyz5KcMmqPNz&branch=main)](https://app.travis-ci.com/github/ShambhaviSeth/pollingApp/builds/272811328?serverType=git)
 
