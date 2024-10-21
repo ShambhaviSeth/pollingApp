@@ -1,5 +1,6 @@
 # pollingApp
 
+This is a test branch to check for settings
 **Build Status**
 [![Build Status](https://app.travis-ci.com/ShambhaviSeth/pollingApp.svg?token=ybxeqBJxxyz5KcMmqPNz&branch=main)](https://app.travis-ci.com/github/ShambhaviSeth/pollingApp/builds/272811328?serverType=git)
 
