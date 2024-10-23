@@ -1,6 +1,7 @@
 # pollingApp
 This is a sample Django application.
 
+This is a test branch to check for settings
 **Build Status**
 [![Build Status](https://app.travis-ci.com/ShambhaviSeth/pollingApp.svg?token=ybxeqBJxxyz5KcMmqPNz&branch=main)](https://app.travis-ci.com/github/ShambhaviSeth/pollingApp/builds/272825035?serverType=git)
 
