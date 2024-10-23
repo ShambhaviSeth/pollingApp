@@ -33,7 +33,6 @@ PyNaCl
 pyrsistent
 python-dateutil
 pytz
-PyYAML
 requests
 semantic-version
 six
