@@ -17,9 +17,10 @@ deploy:
   provider: elasticbeanstalk
   access_key_id: $ACCESS_KEY_ID
   secret_access_key: $SECRET_ACCESS_KEY
-  region: us-west-2
-  app: django-tutorial
-  env: django-env
-  bucket_name: elasticbeanstalk-us-west-2-290512176394
+  region: "us-west-2"
+  app: "django-tutorial"
+  env: "django-env"
+  bucket_name: "elasticbeanstalk-us-west-2-290512176394"
   on:
     branch: main
+  skip_cleanup: 'true'
